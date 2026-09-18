@@ -1,5 +1,6 @@
-package main
+// Echol выводит аргументы командной строки
 
+package main
 import(
   "fmt"
   "os"
@@ -11,4 +12,4 @@ func main(){
     sep = " "
     }
   fmt.Println(s)
-  "
+  }
